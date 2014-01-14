@@ -1,4 +1,4 @@
-# FizzBuzz Quiz
+# QuizBuzz
 
 FizzBuzz is an extremely common early screening question in interviews for programming jobs.
 
