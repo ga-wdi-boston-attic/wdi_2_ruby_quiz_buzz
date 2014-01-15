@@ -12,7 +12,7 @@ describe '#fizz_buzz' do
     expect(fizz_buzz(x)).to eq "buzz"
   end
 
-    it "returns 'fizzbuzz' if x is divisible by 3 and 5" do
+  it "returns 'fizzbuzz' if x is divisible by 3 and 5" do
     x = 60
     expect(fizz_buzz(x)).to eq "buzz"
   end
