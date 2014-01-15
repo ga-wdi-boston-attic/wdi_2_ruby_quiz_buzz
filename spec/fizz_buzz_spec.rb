@@ -5,6 +5,7 @@ describe 'fizz_buzz' do
   it 'raises an error if number of args != 1' do
     expect { fizz_buzz }.to raise_error
     expect { fizz_buzz(2, 3)}.to raise_error
+    expect { fizz_buzz(2)}.not_to raise_error
   end
   it 'returns String fizz if x is divisible by 3' do
     expect(fizz_buzz(3)).to eq 'fizz'
