@@ -11,4 +11,7 @@ describe '#fizzbuzz' do
 	it 'should return fizzbuzz if the parameter is divisible by 3 and 5' do
 		expect(fizzbuzz(15)).to eq "fizzbuzz"
 	end
+	it 'should return a message if the parameter is not divisible by 3 or 5' do
+		expect(fizzbuzz(1)).to eq "The number 1 is not divisible by 3 or 5"
+	end
 end
